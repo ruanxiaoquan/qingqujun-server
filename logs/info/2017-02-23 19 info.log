@@ -1,0 +1,489 @@
+[2017-02-23 19:01:40.603] [INFO] npm install sequelize logger - ::1 - - "GET / HTTP/1.1" 304 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
+[2017-02-23 19:01:40.619] [INFO] npm install sequelize logger - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3800/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
+[2017-02-23 19:01:42.019] [ERROR] UserService - 登录时查询用户信息失败 Error: Invalid value [object Object]
+    at Object.escape (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/sequelize/lib/sql-string.js:59:11)
+    at Object.escape (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:949:22)
+    at Object.whereItemQuery (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2206:22)
+    at QueryGenerator.whereItemsQuery._.forOwn (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1857:25)
+    at isBind (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/sequelize/node_modules/lodash/lodash.js:4738:15)
+    at baseForOwn (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/sequelize/node_modules/lodash/lodash.js:2879:24)
+    at Function.forOwn (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/sequelize/node_modules/lodash/lodash.js:12670:24)
+    at Object.whereItemsQuery (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1856:9)
+    at Object.getWhereConditions (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2270:19)
+    at Object.selectQuery (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1414:28)
+    at QueryInterface.select (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/sequelize/lib/query-interface.js:634:27)
+    at __dirname.static.findAll.Promise.try.then.then.then (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/sequelize/lib/model.js:1484:34)
+    at tryCatcher (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise.module.exports.Promise._settlePromiseFromHandler (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/bluebird/js/release/promise.js:510:31)
+    at Promise.module.exports.Promise._settlePromise (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/bluebird/js/release/promise.js:567:18)
+    at Promise.module.exports.Promise._settlePromise0 (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/bluebird/js/release/promise.js:612:10)
+    at Promise.module.exports.Promise._settlePromises (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/bluebird/js/release/promise.js:691:18)
+    at Async._drainQueue (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.__dirname.Async.drainQueues (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:651:20)
+    at tryOnImmediate (timers.js:624:5)
+[2017-02-23 19:03:22.946] [INFO] npm install sequelize logger - ::1 - - "GET / HTTP/1.1" 304 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
+[2017-02-23 19:03:22.961] [INFO] npm install sequelize logger - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3800/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
+[2017-02-23 19:04:03.214] [ERROR] UserService - 登录时查询用户信息失败 Error: Invalid value [object Object]
+    at Object.escape (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/sequelize/lib/sql-string.js:59:11)
+    at Object.escape (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:949:22)
+    at Object.whereItemQuery (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2206:22)
+    at _.forOwn (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1857:25)
+    at isBind (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/sequelize/node_modules/lodash/lodash.js:4738:15)
+    at baseForOwn (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/sequelize/node_modules/lodash/lodash.js:2879:24)
+    at Function.forOwn (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/sequelize/node_modules/lodash/lodash.js:12670:24)
+    at Object.whereItemsQuery (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1856:9)
+    at Object.getWhereConditions (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2270:19)
+    at Object.selectQuery (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1414:28)
+    at QueryInterface.select (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/sequelize/lib/query-interface.js:634:27)
+    at Promise.try.then.then.then (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/sequelize/lib/model.js:1484:34)
+    at tryCatcher (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise.module.exports.Promise._settlePromiseFromHandler (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/bluebird/js/release/promise.js:510:31)
+    at Promise.module.exports.Promise._settlePromise (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/bluebird/js/release/promise.js:567:18)
+    at Promise.module.exports.Promise._settlePromise0 (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/bluebird/js/release/promise.js:612:10)
+    at Promise.module.exports.Promise._settlePromises (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/bluebird/js/release/promise.js:691:18)
+    at Async._drainQueue (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.__dirname.Async.drainQueues (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:651:20)
+    at tryOnImmediate (timers.js:624:5)
+[2017-02-23 19:06:32.089] [INFO] npm install sequelize logger - ::1 - - "GET / HTTP/1.1" 304 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
+[2017-02-23 19:06:32.114] [INFO] npm install sequelize logger - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3800/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
+[2017-02-23 19:06:39.186] [ERROR] UserService - 登录时查询用户信息失败 Error: Invalid value [object Object]
+    at Object.escape (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/sequelize/lib/sql-string.js:59:11)
+    at Object.escape (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:949:22)
+    at Object.whereItemQuery (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2206:22)
+    at _.forOwn (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1857:25)
+    at isBind (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/sequelize/node_modules/lodash/lodash.js:4738:15)
+    at baseForOwn (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/sequelize/node_modules/lodash/lodash.js:2879:24)
+    at Function.forOwn (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/sequelize/node_modules/lodash/lodash.js:12670:24)
+    at Object.whereItemsQuery (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1856:9)
+    at Object.getWhereConditions (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2270:19)
+    at Object.selectQuery (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1414:28)
+    at QueryInterface.select (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/sequelize/lib/query-interface.js:634:27)
+    at Promise.try.then.then.then (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/sequelize/lib/model.js:1484:34)
+    at tryCatcher (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise.module.exports.Promise._settlePromiseFromHandler (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/bluebird/js/release/promise.js:510:31)
+    at Promise.module.exports.Promise._settlePromise (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/bluebird/js/release/promise.js:567:18)
+    at Promise.module.exports.Promise._settlePromise0 (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/bluebird/js/release/promise.js:612:10)
+    at Promise.module.exports.Promise._settlePromises (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/bluebird/js/release/promise.js:691:18)
+    at Async._drainQueue (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.__dirname.Async.drainQueues (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:651:20)
+    at tryOnImmediate (timers.js:624:5)
+[2017-02-23 19:08:36.732] [INFO] npm install sequelize logger - ::1 - - "GET / HTTP/1.1" 304 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
+[2017-02-23 19:08:36.751] [INFO] npm install sequelize logger - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3800/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
+[2017-02-23 19:09:35.108] [INFO] npm install sequelize logger - ::1 - - "GET / HTTP/1.1" 304 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
+[2017-02-23 19:09:40.447] [INFO] npm install sequelize logger - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3800/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
+[2017-02-23 19:09:53.326] [ERROR] UserService - 登录时查询用户信息失败 { SequelizeBaseError: Unknown column 'id' in 'field list'
+    at Query.formatError (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/sequelize/lib/dialects/mysql/query.js:217:16)
+    at Query.Utils.Promise.connection.query [as onResult] (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/sequelize/lib/dialects/mysql/query.js:55:23)
+    at Query.Command.execute (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/commands/command.js:31:12)
+    at Connection.handlePacket (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:417:28)
+    at PacketParser.onPacket (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:93:16)
+    at PacketParser.executeStart (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/packet_parser.js:73:14)
+    at Socket.<anonymous> (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:101:29)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:551:20)
+  name: 'SequelizeDatabaseError',
+  parent: 
+   { Error: Unknown column 'id' in 'field list'
+       at Packet.asError (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/packets/packet.js:667:13)
+       at Query.Command.execute (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/commands/command.js:29:22)
+       at Connection.handlePacket (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:417:28)
+       at PacketParser.onPacket (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:93:16)
+       at PacketParser.executeStart (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/packet_parser.js:73:14)
+       at Socket.<anonymous> (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:101:29)
+       at emitOne (events.js:96:13)
+       at Socket.emit (events.js:189:7)
+       at readableAddChunk (_stream_readable.js:176:18)
+       at Socket.Readable.push (_stream_readable.js:134:10)
+       at TCP.onread (net.js:551:20)
+     code: 'ER_BAD_FIELD_ERROR',
+     errno: 1054,
+     sqlState: '#42S22',
+     sql: 'SELECT `id`, `user_id`, `nick_name`, `birthday`, `age`, `photo`, `phone`, `is_lock`, `loaction`, `signature`, `register_location`, `create_time` FROM `v_user_info` AS `VUserInfo` WHERE `VUserInfo`.`user_id` = 10000 LIMIT 1;' },
+  original: 
+   { Error: Unknown column 'id' in 'field list'
+       at Packet.asError (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/packets/packet.js:667:13)
+       at Query.Command.execute (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/commands/command.js:29:22)
+       at Connection.handlePacket (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:417:28)
+       at PacketParser.onPacket (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:93:16)
+       at PacketParser.executeStart (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/packet_parser.js:73:14)
+       at Socket.<anonymous> (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:101:29)
+       at emitOne (events.js:96:13)
+       at Socket.emit (events.js:189:7)
+       at readableAddChunk (_stream_readable.js:176:18)
+       at Socket.Readable.push (_stream_readable.js:134:10)
+       at TCP.onread (net.js:551:20)
+     code: 'ER_BAD_FIELD_ERROR',
+     errno: 1054,
+     sqlState: '#42S22',
+     sql: 'SELECT `id`, `user_id`, `nick_name`, `birthday`, `age`, `photo`, `phone`, `is_lock`, `loaction`, `signature`, `register_location`, `create_time` FROM `v_user_info` AS `VUserInfo` WHERE `VUserInfo`.`user_id` = 10000 LIMIT 1;' },
+  sql: 'SELECT `id`, `user_id`, `nick_name`, `birthday`, `age`, `photo`, `phone`, `is_lock`, `loaction`, `signature`, `register_location`, `create_time` FROM `v_user_info` AS `VUserInfo` WHERE `VUserInfo`.`user_id` = 10000 LIMIT 1;' }
+[2017-02-23 19:11:19.086] [INFO] npm install sequelize logger - ::1 - - "GET / HTTP/1.1" 304 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
+[2017-02-23 19:11:19.100] [INFO] npm install sequelize logger - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3800/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
+[2017-02-23 19:12:03.658] [ERROR] UserService - 登录时查询用户信息失败 { SequelizeBaseError: Unknown column 'id' in 'field list'
+    at Query.formatError (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/sequelize/lib/dialects/mysql/query.js:217:16)
+    at Query.Utils.Promise.connection.query [as onResult] (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/sequelize/lib/dialects/mysql/query.js:55:23)
+    at Query.Command.execute (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/commands/command.js:31:12)
+    at Connection.handlePacket (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:417:28)
+    at PacketParser.onPacket (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:93:16)
+    at PacketParser.executeStart (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/packet_parser.js:73:14)
+    at Socket.<anonymous> (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:101:29)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:551:20)
+  name: 'SequelizeDatabaseError',
+  parent: 
+   { Error: Unknown column 'id' in 'field list'
+       at Packet.asError (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/packets/packet.js:667:13)
+       at Query.Command.execute (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/commands/command.js:29:22)
+       at Connection.handlePacket (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:417:28)
+       at PacketParser.onPacket (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:93:16)
+       at PacketParser.executeStart (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/packet_parser.js:73:14)
+       at Socket.<anonymous> (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:101:29)
+       at emitOne (events.js:96:13)
+       at Socket.emit (events.js:189:7)
+       at readableAddChunk (_stream_readable.js:176:18)
+       at Socket.Readable.push (_stream_readable.js:134:10)
+       at TCP.onread (net.js:551:20)
+     code: 'ER_BAD_FIELD_ERROR',
+     errno: 1054,
+     sqlState: '#42S22',
+     sql: 'SELECT `id`, `user_id`, `nick_name`, `birthday`, `age`, `photo`, `phone`, `is_lock`, `loaction`, `signature`, `register_location`, `create_time` FROM `v_user_info` AS `VUserInfo` WHERE `VUserInfo`.`user_id` = 10000 LIMIT 1;' },
+  original: 
+   { Error: Unknown column 'id' in 'field list'
+       at Packet.asError (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/packets/packet.js:667:13)
+       at Query.Command.execute (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/commands/command.js:29:22)
+       at Connection.handlePacket (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:417:28)
+       at PacketParser.onPacket (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:93:16)
+       at PacketParser.executeStart (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/packet_parser.js:73:14)
+       at Socket.<anonymous> (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:101:29)
+       at emitOne (events.js:96:13)
+       at Socket.emit (events.js:189:7)
+       at readableAddChunk (_stream_readable.js:176:18)
+       at Socket.Readable.push (_stream_readable.js:134:10)
+       at TCP.onread (net.js:551:20)
+     code: 'ER_BAD_FIELD_ERROR',
+     errno: 1054,
+     sqlState: '#42S22',
+     sql: 'SELECT `id`, `user_id`, `nick_name`, `birthday`, `age`, `photo`, `phone`, `is_lock`, `loaction`, `signature`, `register_location`, `create_time` FROM `v_user_info` AS `VUserInfo` WHERE `VUserInfo`.`user_id` = 10000 LIMIT 1;' },
+  sql: 'SELECT `id`, `user_id`, `nick_name`, `birthday`, `age`, `photo`, `phone`, `is_lock`, `loaction`, `signature`, `register_location`, `create_time` FROM `v_user_info` AS `VUserInfo` WHERE `VUserInfo`.`user_id` = 10000 LIMIT 1;' }
+[2017-02-23 19:13:30.097] [INFO] npm install sequelize logger - ::1 - - "GET / HTTP/1.1" 304 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
+[2017-02-23 19:13:30.113] [INFO] npm install sequelize logger - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3800/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
+[2017-02-23 19:13:42.607] [ERROR] UserService - 登录时查询用户信息失败 { SequelizeBaseError: Unknown column 'id' in 'field list'
+    at Query.formatError (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/sequelize/lib/dialects/mysql/query.js:217:16)
+    at Query.Utils.Promise.connection.query [as onResult] (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/sequelize/lib/dialects/mysql/query.js:55:23)
+    at Query.Command.execute (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/commands/command.js:31:12)
+    at Connection.handlePacket (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:417:28)
+    at PacketParser.onPacket (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:93:16)
+    at PacketParser.executeStart (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/packet_parser.js:73:14)
+    at Socket.<anonymous> (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:101:29)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:551:20)
+  name: 'SequelizeDatabaseError',
+  parent: 
+   { Error: Unknown column 'id' in 'field list'
+       at Packet.asError (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/packets/packet.js:667:13)
+       at Query.Command.execute (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/commands/command.js:29:22)
+       at Connection.handlePacket (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:417:28)
+       at PacketParser.onPacket (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:93:16)
+       at PacketParser.executeStart (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/packet_parser.js:73:14)
+       at Socket.<anonymous> (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:101:29)
+       at emitOne (events.js:96:13)
+       at Socket.emit (events.js:189:7)
+       at readableAddChunk (_stream_readable.js:176:18)
+       at Socket.Readable.push (_stream_readable.js:134:10)
+       at TCP.onread (net.js:551:20)
+     code: 'ER_BAD_FIELD_ERROR',
+     errno: 1054,
+     sqlState: '#42S22',
+     sql: 'SELECT `id`, `user_id`, `nick_name`, `birthday`, `age`, `photo`, `phone`, `is_lock`, `loaction`, `signature`, `register_location`, `create_time` FROM `v_user_info` AS `VUserInfo` WHERE `VUserInfo`.`user_id` = 10000 LIMIT 1;' },
+  original: 
+   { Error: Unknown column 'id' in 'field list'
+       at Packet.asError (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/packets/packet.js:667:13)
+       at Query.Command.execute (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/commands/command.js:29:22)
+       at Connection.handlePacket (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:417:28)
+       at PacketParser.onPacket (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:93:16)
+       at PacketParser.executeStart (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/packet_parser.js:73:14)
+       at Socket.<anonymous> (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:101:29)
+       at emitOne (events.js:96:13)
+       at Socket.emit (events.js:189:7)
+       at readableAddChunk (_stream_readable.js:176:18)
+       at Socket.Readable.push (_stream_readable.js:134:10)
+       at TCP.onread (net.js:551:20)
+     code: 'ER_BAD_FIELD_ERROR',
+     errno: 1054,
+     sqlState: '#42S22',
+     sql: 'SELECT `id`, `user_id`, `nick_name`, `birthday`, `age`, `photo`, `phone`, `is_lock`, `loaction`, `signature`, `register_location`, `create_time` FROM `v_user_info` AS `VUserInfo` WHERE `VUserInfo`.`user_id` = 10000 LIMIT 1;' },
+  sql: 'SELECT `id`, `user_id`, `nick_name`, `birthday`, `age`, `photo`, `phone`, `is_lock`, `loaction`, `signature`, `register_location`, `create_time` FROM `v_user_info` AS `VUserInfo` WHERE `VUserInfo`.`user_id` = 10000 LIMIT 1;' }
+[2017-02-23 19:16:59.203] [INFO] npm install sequelize logger - ::1 - - "GET / HTTP/1.1" 304 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
+[2017-02-23 19:16:59.217] [INFO] npm install sequelize logger - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3800/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
+[2017-02-23 19:17:01.304] [ERROR] UserService - 登录时查询用户信息失败 { SequelizeBaseError: Unknown column 'id' in 'field list'
+    at Query.formatError (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/sequelize/lib/dialects/mysql/query.js:217:16)
+    at Query.AbstractQuery.run.Utils.Promise.connection.query [as onResult] (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/sequelize/lib/dialects/mysql/query.js:55:23)
+    at Query.Command.execute (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/commands/command.js:31:12)
+    at Connection.handlePacket (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:417:28)
+    at PacketParser.onPacket (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:93:16)
+    at PacketParser.executeStart (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/packet_parser.js:73:14)
+    at Socket.<anonymous> (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:101:29)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:551:20)
+  name: 'SequelizeDatabaseError',
+  parent: 
+   { Error: Unknown column 'id' in 'field list'
+       at Packet.asError (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/packets/packet.js:667:13)
+       at Query.Command.execute (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/commands/command.js:29:22)
+       at Connection.handlePacket (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:417:28)
+       at PacketParser.onPacket (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:93:16)
+       at PacketParser.executeStart (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/packet_parser.js:73:14)
+       at Socket.<anonymous> (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:101:29)
+       at emitOne (events.js:96:13)
+       at Socket.emit (events.js:189:7)
+       at readableAddChunk (_stream_readable.js:176:18)
+       at Socket.Readable.push (_stream_readable.js:134:10)
+       at TCP.onread (net.js:551:20)
+     code: 'ER_BAD_FIELD_ERROR',
+     errno: 1054,
+     sqlState: '#42S22',
+     sql: 'SELECT `id`, `user_id`, `nick_name`, `birthday`, `age`, `photo`, `phone`, `is_lock`, `loaction`, `signature`, `register_location`, `create_time` FROM `v_user_info` AS `VUserInfo` WHERE `VUserInfo`.`user_id` = 10000 LIMIT 1;' },
+  original: 
+   { Error: Unknown column 'id' in 'field list'
+       at Packet.asError (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/packets/packet.js:667:13)
+       at Query.Command.execute (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/commands/command.js:29:22)
+       at Connection.handlePacket (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:417:28)
+       at PacketParser.onPacket (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:93:16)
+       at PacketParser.executeStart (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/packet_parser.js:73:14)
+       at Socket.<anonymous> (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:101:29)
+       at emitOne (events.js:96:13)
+       at Socket.emit (events.js:189:7)
+       at readableAddChunk (_stream_readable.js:176:18)
+       at Socket.Readable.push (_stream_readable.js:134:10)
+       at TCP.onread (net.js:551:20)
+     code: 'ER_BAD_FIELD_ERROR',
+     errno: 1054,
+     sqlState: '#42S22',
+     sql: 'SELECT `id`, `user_id`, `nick_name`, `birthday`, `age`, `photo`, `phone`, `is_lock`, `loaction`, `signature`, `register_location`, `create_time` FROM `v_user_info` AS `VUserInfo` WHERE `VUserInfo`.`user_id` = 10000 LIMIT 1;' },
+  sql: 'SELECT `id`, `user_id`, `nick_name`, `birthday`, `age`, `photo`, `phone`, `is_lock`, `loaction`, `signature`, `register_location`, `create_time` FROM `v_user_info` AS `VUserInfo` WHERE `VUserInfo`.`user_id` = 10000 LIMIT 1;' }
+[2017-02-23 19:25:10.196] [INFO] npm install sequelize logger - ::1 - - "GET / HTTP/1.1" 304 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
+[2017-02-23 19:25:10.211] [INFO] npm install sequelize logger - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3800/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
+[2017-02-23 19:25:11.558] [ERROR] UserService - 登录时查询用户信息失败 { SequelizeBaseError: Unknown column 'register_location' in 'field list'
+    at Query.formatError (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/sequelize/lib/dialects/mysql/query.js:217:16)
+    at Query.AbstractQuery.run.Utils.Promise.connection.query [as onResult] (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/sequelize/lib/dialects/mysql/query.js:55:23)
+    at Query.Command.execute (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/commands/command.js:31:12)
+    at Connection.handlePacket (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:417:28)
+    at PacketParser.onPacket (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:93:16)
+    at PacketParser.executeStart (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/packet_parser.js:73:14)
+    at Socket.<anonymous> (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:101:29)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:551:20)
+  name: 'SequelizeDatabaseError',
+  parent: 
+   { Error: Unknown column 'register_location' in 'field list'
+       at Packet.asError (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/packets/packet.js:667:13)
+       at Query.Command.execute (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/commands/command.js:29:22)
+       at Connection.handlePacket (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:417:28)
+       at PacketParser.onPacket (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:93:16)
+       at PacketParser.executeStart (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/packet_parser.js:73:14)
+       at Socket.<anonymous> (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:101:29)
+       at emitOne (events.js:96:13)
+       at Socket.emit (events.js:189:7)
+       at readableAddChunk (_stream_readable.js:176:18)
+       at Socket.Readable.push (_stream_readable.js:134:10)
+       at TCP.onread (net.js:551:20)
+     code: 'ER_BAD_FIELD_ERROR',
+     errno: 1054,
+     sqlState: '#42S22',
+     sql: 'SELECT `user_id`, `nick_name`, `birthday`, `age`, `photo`, `is_lock`, `loaction`, `signature`, `register_location`, `create_time` FROM `v_user_info` AS `VUserInfo` LIMIT 1;' },
+  original: 
+   { Error: Unknown column 'register_location' in 'field list'
+       at Packet.asError (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/packets/packet.js:667:13)
+       at Query.Command.execute (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/commands/command.js:29:22)
+       at Connection.handlePacket (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:417:28)
+       at PacketParser.onPacket (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:93:16)
+       at PacketParser.executeStart (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/packet_parser.js:73:14)
+       at Socket.<anonymous> (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:101:29)
+       at emitOne (events.js:96:13)
+       at Socket.emit (events.js:189:7)
+       at readableAddChunk (_stream_readable.js:176:18)
+       at Socket.Readable.push (_stream_readable.js:134:10)
+       at TCP.onread (net.js:551:20)
+     code: 'ER_BAD_FIELD_ERROR',
+     errno: 1054,
+     sqlState: '#42S22',
+     sql: 'SELECT `user_id`, `nick_name`, `birthday`, `age`, `photo`, `is_lock`, `loaction`, `signature`, `register_location`, `create_time` FROM `v_user_info` AS `VUserInfo` LIMIT 1;' },
+  sql: 'SELECT `user_id`, `nick_name`, `birthday`, `age`, `photo`, `is_lock`, `loaction`, `signature`, `register_location`, `create_time` FROM `v_user_info` AS `VUserInfo` LIMIT 1;' }
+[2017-02-23 19:25:51.115] [INFO] npm install sequelize logger - ::1 - - "GET / HTTP/1.1" 304 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
+[2017-02-23 19:25:51.132] [INFO] npm install sequelize logger - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3800/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
+[2017-02-23 19:25:52.565] [ERROR] UserService - 登录时查询用户信息失败 { SequelizeBaseError: Unknown column 'register_location' in 'field list'
+    at Query.formatError (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/sequelize/lib/dialects/mysql/query.js:217:16)
+    at Query.AbstractQuery.run.Utils.Promise.connection.query [as onResult] (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/sequelize/lib/dialects/mysql/query.js:55:23)
+    at Query.Command.execute (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/commands/command.js:31:12)
+    at Connection.handlePacket (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:417:28)
+    at PacketParser.onPacket (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:93:16)
+    at PacketParser.executeStart (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/packet_parser.js:73:14)
+    at Socket.<anonymous> (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:101:29)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:551:20)
+  name: 'SequelizeDatabaseError',
+  parent: 
+   { Error: Unknown column 'register_location' in 'field list'
+       at Packet.asError (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/packets/packet.js:667:13)
+       at Query.Command.execute (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/commands/command.js:29:22)
+       at Connection.handlePacket (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:417:28)
+       at PacketParser.onPacket (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:93:16)
+       at PacketParser.executeStart (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/packet_parser.js:73:14)
+       at Socket.<anonymous> (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:101:29)
+       at emitOne (events.js:96:13)
+       at Socket.emit (events.js:189:7)
+       at readableAddChunk (_stream_readable.js:176:18)
+       at Socket.Readable.push (_stream_readable.js:134:10)
+       at TCP.onread (net.js:551:20)
+     code: 'ER_BAD_FIELD_ERROR',
+     errno: 1054,
+     sqlState: '#42S22',
+     sql: 'SELECT `user_id`, `nick_name`, `birthday`, `age`, `photo`, `is_lock`, `loaction`, `signature`, `register_location`, `create_time` FROM `v_user_info` AS `VUserInfo` LIMIT 1;' },
+  original: 
+   { Error: Unknown column 'register_location' in 'field list'
+       at Packet.asError (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/packets/packet.js:667:13)
+       at Query.Command.execute (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/commands/command.js:29:22)
+       at Connection.handlePacket (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:417:28)
+       at PacketParser.onPacket (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:93:16)
+       at PacketParser.executeStart (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/packet_parser.js:73:14)
+       at Socket.<anonymous> (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:101:29)
+       at emitOne (events.js:96:13)
+       at Socket.emit (events.js:189:7)
+       at readableAddChunk (_stream_readable.js:176:18)
+       at Socket.Readable.push (_stream_readable.js:134:10)
+       at TCP.onread (net.js:551:20)
+     code: 'ER_BAD_FIELD_ERROR',
+     errno: 1054,
+     sqlState: '#42S22',
+     sql: 'SELECT `user_id`, `nick_name`, `birthday`, `age`, `photo`, `is_lock`, `loaction`, `signature`, `register_location`, `create_time` FROM `v_user_info` AS `VUserInfo` LIMIT 1;' },
+  sql: 'SELECT `user_id`, `nick_name`, `birthday`, `age`, `photo`, `is_lock`, `loaction`, `signature`, `register_location`, `create_time` FROM `v_user_info` AS `VUserInfo` LIMIT 1;' }
+[2017-02-23 19:26:19.178] [INFO] npm install sequelize logger - ::1 - - "GET / HTTP/1.1" 304 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
+[2017-02-23 19:26:19.201] [INFO] npm install sequelize logger - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3800/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
+[2017-02-23 19:26:21.399] [ERROR] UserService - 登录时查询用户信息失败 { SequelizeBaseError: Unknown column 'register_location' in 'field list'
+    at Query.formatError (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/sequelize/lib/dialects/mysql/query.js:217:16)
+    at Query.AbstractQuery.run.Utils.Promise.connection.query [as onResult] (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/sequelize/lib/dialects/mysql/query.js:55:23)
+    at Query.Command.execute (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/commands/command.js:31:12)
+    at Connection.handlePacket (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:417:28)
+    at PacketParser.onPacket (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:93:16)
+    at PacketParser.executeStart (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/packet_parser.js:73:14)
+    at Socket.<anonymous> (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:101:29)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:551:20)
+  name: 'SequelizeDatabaseError',
+  parent: 
+   { Error: Unknown column 'register_location' in 'field list'
+       at Packet.asError (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/packets/packet.js:667:13)
+       at Query.Command.execute (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/commands/command.js:29:22)
+       at Connection.handlePacket (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:417:28)
+       at PacketParser.onPacket (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:93:16)
+       at PacketParser.executeStart (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/packet_parser.js:73:14)
+       at Socket.<anonymous> (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:101:29)
+       at emitOne (events.js:96:13)
+       at Socket.emit (events.js:189:7)
+       at readableAddChunk (_stream_readable.js:176:18)
+       at Socket.Readable.push (_stream_readable.js:134:10)
+       at TCP.onread (net.js:551:20)
+     code: 'ER_BAD_FIELD_ERROR',
+     errno: 1054,
+     sqlState: '#42S22',
+     sql: 'SELECT `user_id`, `nick_name`, `birthday`, `age`, `photo`, `is_lock`, `loaction`, `signature`, `register_location`, `create_time` FROM `v_user_info` AS `VUserInfo` LIMIT 1;' },
+  original: 
+   { Error: Unknown column 'register_location' in 'field list'
+       at Packet.asError (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/packets/packet.js:667:13)
+       at Query.Command.execute (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/commands/command.js:29:22)
+       at Connection.handlePacket (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:417:28)
+       at PacketParser.onPacket (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:93:16)
+       at PacketParser.executeStart (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/packet_parser.js:73:14)
+       at Socket.<anonymous> (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:101:29)
+       at emitOne (events.js:96:13)
+       at Socket.emit (events.js:189:7)
+       at readableAddChunk (_stream_readable.js:176:18)
+       at Socket.Readable.push (_stream_readable.js:134:10)
+       at TCP.onread (net.js:551:20)
+     code: 'ER_BAD_FIELD_ERROR',
+     errno: 1054,
+     sqlState: '#42S22',
+     sql: 'SELECT `user_id`, `nick_name`, `birthday`, `age`, `photo`, `is_lock`, `loaction`, `signature`, `register_location`, `create_time` FROM `v_user_info` AS `VUserInfo` LIMIT 1;' },
+  sql: 'SELECT `user_id`, `nick_name`, `birthday`, `age`, `photo`, `is_lock`, `loaction`, `signature`, `register_location`, `create_time` FROM `v_user_info` AS `VUserInfo` LIMIT 1;' }
+[2017-02-23 19:28:10.305] [INFO] npm install sequelize logger - ::1 - - "GET / HTTP/1.1" 304 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
+[2017-02-23 19:28:10.321] [INFO] npm install sequelize logger - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3800/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
+[2017-02-23 19:28:13.332] [ERROR] UserService - 登录时查询用户信息失败 { SequelizeBaseError: Unknown column 'register_location' in 'field list'
+    at Query.formatError (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/sequelize/lib/dialects/mysql/query.js:217:16)
+    at Query.AbstractQuery.run.Utils.Promise.connection.query [as onResult] (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/sequelize/lib/dialects/mysql/query.js:55:23)
+    at Query.Command.execute (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/commands/command.js:31:12)
+    at Connection.handlePacket (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:417:28)
+    at PacketParser.onPacket (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:93:16)
+    at PacketParser.executeStart (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/packet_parser.js:73:14)
+    at Socket.<anonymous> (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:101:29)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:551:20)
+  name: 'SequelizeDatabaseError',
+  parent: 
+   { Error: Unknown column 'register_location' in 'field list'
+       at Packet.asError (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/packets/packet.js:667:13)
+       at Query.Command.execute (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/commands/command.js:29:22)
+       at Connection.handlePacket (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:417:28)
+       at PacketParser.onPacket (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:93:16)
+       at PacketParser.executeStart (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/packet_parser.js:73:14)
+       at Socket.<anonymous> (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:101:29)
+       at emitOne (events.js:96:13)
+       at Socket.emit (events.js:189:7)
+       at readableAddChunk (_stream_readable.js:176:18)
+       at Socket.Readable.push (_stream_readable.js:134:10)
+       at TCP.onread (net.js:551:20)
+     code: 'ER_BAD_FIELD_ERROR',
+     errno: 1054,
+     sqlState: '#42S22',
+     sql: 'SELECT `user_id`, `nick_name`, `birthday`, `age`, `photo`, `is_lock`, `loaction`, `signature`, `register_location`, `create_time` FROM `v_user_info` AS `VUserInfo` LIMIT 1;' },
+  original: 
+   { Error: Unknown column 'register_location' in 'field list'
+       at Packet.asError (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/packets/packet.js:667:13)
+       at Query.Command.execute (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/commands/command.js:29:22)
+       at Connection.handlePacket (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:417:28)
+       at PacketParser.onPacket (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:93:16)
+       at PacketParser.executeStart (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/packet_parser.js:73:14)
+       at Socket.<anonymous> (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:101:29)
+       at emitOne (events.js:96:13)
+       at Socket.emit (events.js:189:7)
+       at readableAddChunk (_stream_readable.js:176:18)
+       at Socket.Readable.push (_stream_readable.js:134:10)
+       at TCP.onread (net.js:551:20)
+     code: 'ER_BAD_FIELD_ERROR',
+     errno: 1054,
+     sqlState: '#42S22',
+     sql: 'SELECT `user_id`, `nick_name`, `birthday`, `age`, `photo`, `is_lock`, `loaction`, `signature`, `register_location`, `create_time` FROM `v_user_info` AS `VUserInfo` LIMIT 1;' },
+  sql: 'SELECT `user_id`, `nick_name`, `birthday`, `age`, `photo`, `is_lock`, `loaction`, `signature`, `register_location`, `create_time` FROM `v_user_info` AS `VUserInfo` LIMIT 1;' }
+[2017-02-23 19:28:39.169] [INFO] npm install sequelize logger - ::1 - - "GET / HTTP/1.1" 304 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
+[2017-02-23 19:28:39.185] [INFO] npm install sequelize logger - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3800/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
+[2017-02-23 19:29:22.529] [INFO] npm install sequelize logger - ::1 - - "GET / HTTP/1.1" 304 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
+[2017-02-23 19:29:22.543] [INFO] npm install sequelize logger - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3800/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"

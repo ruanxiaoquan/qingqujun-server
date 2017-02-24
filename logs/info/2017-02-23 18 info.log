@@ -1,0 +1,163 @@
+[2017-02-23 18:01:00.927] [INFO] npm install sequelize logger - ::1 - - "GET / HTTP/1.1" 304 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
+[2017-02-23 18:01:00.945] [INFO] npm install sequelize logger - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3800/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
+[2017-02-23 18:01:25.739] [INFO] npm install sequelize logger - ::1 - - "GET / HTTP/1.1" 304 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
+[2017-02-23 18:01:25.780] [INFO] npm install sequelize logger - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3800/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
+[2017-02-23 18:10:08.595] [INFO] npm install sequelize logger - ::1 - - "GET / HTTP/1.1" 304 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
+[2017-02-23 18:10:08.623] [INFO] npm install sequelize logger - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3800/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
+[2017-02-23 18:11:05.612] [INFO] npm install sequelize logger - ::1 - - "GET / HTTP/1.1" 304 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
+[2017-02-23 18:11:05.627] [INFO] npm install sequelize logger - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3800/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
+[2017-02-23 18:11:55.920] [INFO] npm install sequelize logger - ::1 - - "GET / HTTP/1.1" 304 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
+[2017-02-23 18:11:55.935] [INFO] npm install sequelize logger - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3800/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
+[2017-02-23 18:11:57.030] [ERROR] netWork - 写入session失败 { SequelizeBaseError: Validation error
+    at Query.formatError (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/sequelize/lib/dialects/mysql/query.js:196:16)
+    at Query.AbstractQuery.run.Utils.Promise.connection.query [as onResult] (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/sequelize/lib/dialects/mysql/query.js:55:23)
+    at Query.Command.execute (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/commands/command.js:31:12)
+    at Connection.handlePacket (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:417:28)
+    at PacketParser.onPacket (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:93:16)
+    at PacketParser.executeStart (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/packet_parser.js:73:14)
+    at Socket.<anonymous> (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:101:29)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:551:20)
+  name: 'SequelizeUniqueConstraintError',
+  errors: 
+   [ ValidationErrorItem {
+       message: 'PRIMARY must be unique',
+       type: 'unique violation',
+       path: 'PRIMARY',
+       value: '20000' } ],
+  fields: { PRIMARY: '20000' },
+  parent: 
+   { Error: Duplicate entry '20000' for key 'PRIMARY'
+       at Packet.asError (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/packets/packet.js:667:13)
+       at Query.Command.execute (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/commands/command.js:29:22)
+       at Connection.handlePacket (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:417:28)
+       at PacketParser.onPacket (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:93:16)
+       at PacketParser.executeStart (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/packet_parser.js:73:14)
+       at Socket.<anonymous> (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:101:29)
+       at emitOne (events.js:96:13)
+       at Socket.emit (events.js:189:7)
+       at readableAddChunk (_stream_readable.js:176:18)
+       at Socket.Readable.push (_stream_readable.js:134:10)
+       at TCP.onread (net.js:551:20)
+     code: 'ER_DUP_ENTRY',
+     errno: 1062,
+     sqlState: '#23000',
+     sql: 'INSERT INTO `user_session` (`id`,`user_id`,`token`,`login_location`) VALUES (DEFAULT,10000,\'6e4bc18c-22e4-4246-8098-e548845d1040\',\'北京市\');' },
+  original: 
+   { Error: Duplicate entry '20000' for key 'PRIMARY'
+       at Packet.asError (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/packets/packet.js:667:13)
+       at Query.Command.execute (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/commands/command.js:29:22)
+       at Connection.handlePacket (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:417:28)
+       at PacketParser.onPacket (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:93:16)
+       at PacketParser.executeStart (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/packet_parser.js:73:14)
+       at Socket.<anonymous> (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:101:29)
+       at emitOne (events.js:96:13)
+       at Socket.emit (events.js:189:7)
+       at readableAddChunk (_stream_readable.js:176:18)
+       at Socket.Readable.push (_stream_readable.js:134:10)
+       at TCP.onread (net.js:551:20)
+     code: 'ER_DUP_ENTRY',
+     errno: 1062,
+     sqlState: '#23000',
+     sql: 'INSERT INTO `user_session` (`id`,`user_id`,`token`,`login_location`) VALUES (DEFAULT,10000,\'6e4bc18c-22e4-4246-8098-e548845d1040\',\'北京市\');' },
+  sql: 'INSERT INTO `user_session` (`id`,`user_id`,`token`,`login_location`) VALUES (DEFAULT,10000,\'6e4bc18c-22e4-4246-8098-e548845d1040\',\'北京市\');' }
+[2017-02-23 18:12:36.767] [INFO] npm install sequelize logger - ::1 - - "GET / HTTP/1.1" 304 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
+[2017-02-23 18:12:36.779] [INFO] npm install sequelize logger - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3800/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
+[2017-02-23 18:12:37.532] [ERROR] UserService - 写入session失败 { SequelizeBaseError: Validation error
+    at Query.formatError (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/sequelize/lib/dialects/mysql/query.js:196:16)
+    at Query.AbstractQuery.run.Utils.Promise.connection.query [as onResult] (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/sequelize/lib/dialects/mysql/query.js:55:23)
+    at Query.Command.execute (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/commands/command.js:31:12)
+    at Connection.handlePacket (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:417:28)
+    at PacketParser.onPacket (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:93:16)
+    at PacketParser.executeStart (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/packet_parser.js:73:14)
+    at Socket.<anonymous> (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:101:29)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:551:20)
+  name: 'SequelizeUniqueConstraintError',
+  errors: 
+   [ ValidationErrorItem {
+       message: 'PRIMARY must be unique',
+       type: 'unique violation',
+       path: 'PRIMARY',
+       value: '20000' } ],
+  fields: { PRIMARY: '20000' },
+  parent: 
+   { Error: Duplicate entry '20000' for key 'PRIMARY'
+       at Packet.asError (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/packets/packet.js:667:13)
+       at Query.Command.execute (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/commands/command.js:29:22)
+       at Connection.handlePacket (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:417:28)
+       at PacketParser.onPacket (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:93:16)
+       at PacketParser.executeStart (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/packet_parser.js:73:14)
+       at Socket.<anonymous> (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:101:29)
+       at emitOne (events.js:96:13)
+       at Socket.emit (events.js:189:7)
+       at readableAddChunk (_stream_readable.js:176:18)
+       at Socket.Readable.push (_stream_readable.js:134:10)
+       at TCP.onread (net.js:551:20)
+     code: 'ER_DUP_ENTRY',
+     errno: 1062,
+     sqlState: '#23000',
+     sql: 'INSERT INTO `user_session` (`id`,`user_id`,`token`,`login_location`) VALUES (DEFAULT,10000,\'c7a2dea4-7766-476f-9ca0-aa61ed0295ee\',\'北京市\');' },
+  original: 
+   { Error: Duplicate entry '20000' for key 'PRIMARY'
+       at Packet.asError (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/packets/packet.js:667:13)
+       at Query.Command.execute (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/commands/command.js:29:22)
+       at Connection.handlePacket (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:417:28)
+       at PacketParser.onPacket (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:93:16)
+       at PacketParser.executeStart (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/packet_parser.js:73:14)
+       at Socket.<anonymous> (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/mysql2/lib/connection.js:101:29)
+       at emitOne (events.js:96:13)
+       at Socket.emit (events.js:189:7)
+       at readableAddChunk (_stream_readable.js:176:18)
+       at Socket.Readable.push (_stream_readable.js:134:10)
+       at TCP.onread (net.js:551:20)
+     code: 'ER_DUP_ENTRY',
+     errno: 1062,
+     sqlState: '#23000',
+     sql: 'INSERT INTO `user_session` (`id`,`user_id`,`token`,`login_location`) VALUES (DEFAULT,10000,\'c7a2dea4-7766-476f-9ca0-aa61ed0295ee\',\'北京市\');' },
+  sql: 'INSERT INTO `user_session` (`id`,`user_id`,`token`,`login_location`) VALUES (DEFAULT,10000,\'c7a2dea4-7766-476f-9ca0-aa61ed0295ee\',\'北京市\');' }
+[2017-02-23 18:14:11.813] [INFO] npm install sequelize logger - ::1 - - "GET / HTTP/1.1" 304 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
+[2017-02-23 18:14:11.829] [INFO] npm install sequelize logger - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3800/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
+[2017-02-23 18:24:07.172] [INFO] npm install sequelize logger - ::1 - - "GET / HTTP/1.1" 304 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
+[2017-02-23 18:24:07.186] [INFO] npm install sequelize logger - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3800/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
+[2017-02-23 18:28:08.212] [INFO] npm install sequelize logger - ::1 - - "GET / HTTP/1.1" 304 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
+[2017-02-23 18:28:08.230] [INFO] npm install sequelize logger - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3800/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
+[2017-02-23 18:28:09.630] [ERROR] UserService - 写入session失败 ReferenceError: data is not defined
+    at logout (/Users/ruanxiaoquan/project/qingqujun-server/service/account/UserService.js:76:22)
+    at self.userLogin.db.User.findOne.then.db.UserSession.create.then (/Users/ruanxiaoquan/project/qingqujun-server/service/account/UserService.js:53:17)
+    at tryCatcher (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise.module.exports.Promise._settlePromiseFromHandler (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/bluebird/js/release/promise.js:510:31)
+    at Promise.module.exports.Promise._settlePromise (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/bluebird/js/release/promise.js:567:18)
+    at Promise.module.exports.Promise._settlePromise0 (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/bluebird/js/release/promise.js:612:10)
+    at Promise.module.exports.Promise._settlePromises (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/bluebird/js/release/promise.js:691:18)
+    at Async._drainQueue (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.__dirname.Async.drainQueues (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:651:20)
+    at tryOnImmediate (timers.js:624:5)
+    at processImmediate [as _immediateCallback] (timers.js:596:5)
+[2017-02-23 18:29:20.938] [INFO] npm install sequelize logger - ::1 - - "GET / HTTP/1.1" 304 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
+[2017-02-23 18:29:20.951] [INFO] npm install sequelize logger - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3800/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
+[2017-02-23 18:29:23.769] [ERROR] UserService - 写入session失败 Error: Missing where attribute in the options parameter passed to update.
+    at Function.update (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/sequelize/lib/model.js:2494:13)
+    at logout (/Users/ruanxiaoquan/project/qingqujun-server/service/account/UserService.js:71:20)
+    at self.userLogin.db.User.findOne.then.db.UserSession.create.then (/Users/ruanxiaoquan/project/qingqujun-server/service/account/UserService.js:50:17)
+    at tryCatcher (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise.module.exports.Promise._settlePromiseFromHandler (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/bluebird/js/release/promise.js:510:31)
+    at Promise.module.exports.Promise._settlePromise (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/bluebird/js/release/promise.js:567:18)
+    at Promise.module.exports.Promise._settlePromise0 (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/bluebird/js/release/promise.js:612:10)
+    at Promise.module.exports.Promise._settlePromises (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/bluebird/js/release/promise.js:691:18)
+    at Async._drainQueue (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.__dirname.Async.drainQueues (/Users/ruanxiaoquan/project/qingqujun-server/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:651:20)
+    at tryOnImmediate (timers.js:624:5)
+    at processImmediate [as _immediateCallback] (timers.js:596:5)
+[2017-02-23 18:31:41.932] [INFO] npm install sequelize logger - ::1 - - "GET / HTTP/1.1" 304 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
+[2017-02-23 18:31:41.947] [INFO] npm install sequelize logger - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3800/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
