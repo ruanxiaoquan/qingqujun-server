@@ -22,10 +22,10 @@ module.exports = {
         tag: "LKJHGJK***(*&())",
         port: 8080,
         db: {
-            host: "120.25.85.198",
-            database: "qingqujun",
-            username: "root",
-            password: "qqqwww!23",
+            host: "",
+            database: "",
+            username: "",
+            password: "",
             port: 3306,
             dialect: "mysql"
         }
