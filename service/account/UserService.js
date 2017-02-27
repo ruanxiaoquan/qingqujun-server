@@ -29,10 +29,10 @@ self.userLogin = (opts) => {
             return;
         }
         db.User.findOne({ where: { phone: opts.username } }).then(data => {
-            console.log(data);
+            if (!data) fail({ code: -1, message: "帐号或密码错误" });
             let reqPwd = security.encrypt(opts.password);
             if (reqPwd != data.password) {
-                fail({ message: "请输入密码", code: -1 });
+                fail({ message: "帐号或密码错误", code: -1 });
                 return;
             }
             if (data.is_lock) {
@@ -48,8 +48,8 @@ self.userLogin = (opts) => {
             }).then((session) => {
                 logout(data.id, session.id);
                 db.VUserInfo.findOne({
-                    attributes:["user_id","nick_name","birthday","age","photo","is_lock","loaction","signature","create_time"]
-                },{ where: { user_id: { "$eq": data.id } } })
+                    attributes: ["user_id", "nick_name", "birthday", "age", "photo", "is_lock", "loaction", "signature", "create_time"]
+                }, { where: { user_id: { "$eq": data.id } } })
                     .then(userInfo => {
                         let resUserInfo = Object.assign({}, userInfo.dataValues, { token });
                         success({ code: 1, data: resUserInfo });
@@ -63,7 +63,7 @@ self.userLogin = (opts) => {
             });
         }).catch(err => {
             log.error("登录失败", err);
-            console.log(err);
+            fail({ message: "当前网络不稳定", code: -500 });
         });
     });
 }

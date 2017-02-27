@@ -7,10 +7,10 @@ module.exports = {
         tag: "TYUIIUY(*&())",
         port: 8080,
         db: {
-            host: "120.25.85.198",
-            database: "qingqujun",
-            username: "root",
-            password: "qqqwww!23",
+            host: "",
+            database: "",
+            username: "",
+            password: "!23",
             port: 3306,
             dialect: "mysql"
         }
