@@ -16,8 +16,7 @@ module.exports = function (sequelize, DataTypes) {
         device_id: DataTypes.STRING,
         phone: DataTypes.STRING,
         online: DataTypes.BOOLEAN,
-        logout_time: DataTypes.DATE,
-        create_time: DataTypes.DATE,
+        logout_time: DataTypes.DATE
     }, {
             tableName: 'user_session',
             underscored: true,

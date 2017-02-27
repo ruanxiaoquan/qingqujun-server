@@ -15,8 +15,9 @@ let self = module.exports = function () {
 }
 
 self.getAllUser = function () {
-    return db.User.findAll();
+    return db.UserSession.findAll();
 }
+
 
 self.userLogin = (opts) => {
     return new Promise((success, fail) => {

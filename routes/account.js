@@ -14,7 +14,15 @@ router.get('/', function (req, res) {
 router.post('/login', function (req, res) {
   us.userLogin({ username: req.body.phone, password: req.body.password }).then(data => {
     res.send(data);
-  }).catch(err => { 
+  }).catch(err => {
+    res.send(err);
+  });
+});
+
+router.get("/list", (req, res) => {
+  us.getAllUser().then(data => {
+    res.send(data);
+  }).catch(err => {
     res.send(err);
   });
 });
